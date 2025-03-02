@@ -8,35 +8,95 @@
 </head>
 <body>
     <div class="container">
-        <div class="countdown-box">
-            <h2>Next Prayer In</h2>
-            <div id="countdown" class="countdown">
-                <span id="hours">00</span>:<span id="minutes">00</span>:<span id="seconds">00</span>
-            </div>
-            <div id="nextPrayer" class="next-prayer">Next: Fajr</div>
+        <h1>Islamic Prayer Times</h1>
+        
+        <div class="date-time-box">
+            <h2>Today's Date & Time</h2>
+            <div id="current-date"></div>
+            <div id="current-time"></div>
         </div>
 
-        <div class="prayer-times-box">
-            <h2>Prayer Times</h2>
-            <div class="prayer-time">
-                <span class="prayer-name">Fajr</span>
-                <span id="fajr-time" class="time">05:30</span>
+        <div class="main-content">
+            <div class="next-prayer-box">
+                <h2>Next Prayer</h2>
+                <div class="next-prayer-name">
+                    <div id="next-prayer-english"></div>
+                    <div id="next-prayer-arabic" class="arabic"></div>
+                </div>
+                <div id="next-prayer-time"></div>
+                <div id="next-prayer-date"></div>
+                
+                <div class="countdown-container">
+                    <div class="countdown-box">
+                        <div id="hours" class="countdown-value">00</div>
+                        <div class="countdown-label">Hours</div>
+                    </div>
+                    <div class="countdown-box">
+                        <div id="minutes" class="countdown-value">00</div>
+                        <div class="countdown-label">Minutes</div>
+                    </div>
+                    <div class="countdown-box">
+                        <div id="seconds" class="countdown-value">00</div>
+                        <div class="countdown-label">Seconds</div>
+                    </div>
+                </div>
             </div>
-            <div class="prayer-time">
-                <span class="prayer-name">Dhuhr</span>
-                <span id="dhuhr-time" class="time">12:30</span>
-            </div>
-            <div class="prayer-time">
-                <span class="prayer-name">Asr</span>
-                <span id="asr-time" class="time">15:45</span>
-            </div>
-            <div class="prayer-time">
-                <span class="prayer-name">Maghrib</span>
-                <span id="maghrib-time" class="time">18:15</span>
-            </div>
-            <div class="prayer-time">
-                <span class="prayer-name">Isha</span>
-                <span id="isha-time" class="time">19:45</span>
+
+            <div class="prayer-times-box">
+                <h2>Prayer Times</h2>
+                <div id="prayer-date"></div>
+                
+                <div class="prayer-times-list">
+                    <div class="prayer-time" id="fajr">
+                        <div class="prayer-indicator">F</div>
+                        <div class="prayer-names">
+                            <div class="prayer-name">Fajr</div>
+                            <div class="prayer-arabic">الفجر</div>
+                        </div>
+                        <div class="prayer-time-value"></div>
+                        <div class="prayer-date"></div>
+                    </div>
+                    
+                    <div class="prayer-time" id="dhuhr">
+                        <div class="prayer-indicator">D</div>
+                        <div class="prayer-names">
+                            <div class="prayer-name">Dhuhr</div>
+                            <div class="prayer-arabic">الظهر</div>
+                        </div>
+                        <div class="prayer-time-value"></div>
+                        <div class="prayer-date"></div>
+                    </div>
+                    
+                    <div class="prayer-time" id="asr">
+                        <div class="prayer-indicator">A</div>
+                        <div class="prayer-names">
+                            <div class="prayer-name">Asr</div>
+                            <div class="prayer-arabic">العصر</div>
+                        </div>
+                        <div class="prayer-time-value"></div>
+                        <div class="prayer-date"></div>
+                    </div>
+                    
+                    <div class="prayer-time" id="maghrib">
+                        <div class="prayer-indicator">M</div>
+                        <div class="prayer-names">
+                            <div class="prayer-name">Maghrib</div>
+                            <div class="prayer-arabic">المغرب</div>
+                        </div>
+                        <div class="prayer-time-value"></div>
+                        <div class="prayer-date"></div>
+                    </div>
+                    
+                    <div class="prayer-time" id="isha">
+                        <div class="prayer-indicator">I</div>
+                        <div class="prayer-names">
+                            <div class="prayer-name">Isha</div>
+                            <div class="prayer-arabic">العشاء</div>
+                        </div>
+                        <div class="prayer-time-value"></div>
+                        <div class="prayer-date"></div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

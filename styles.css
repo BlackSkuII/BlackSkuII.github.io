@@ -9,63 +9,173 @@ body {
     background-color: black;
     color: white;
     min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    padding: 2rem;
 }
 
 .container {
-    display: flex;
-    gap: 2rem;
-    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
-.countdown-box, .prayer-times-box {
-    background: rgba(255, 255, 255, 0.1);
-    padding: 2rem;
-    border-radius: 15px;
-    border: 2px solid gold;
-    box-shadow: 0 0 15px rgba(255, 215, 0, 0.3);
-    min-width: 300px;
+h1 {
+    color: gold;
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
 }
 
 h2 {
-    text-align: center;
-    margin-bottom: 1.5rem;
     color: gold;
+    text-align: center;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
 }
 
-.countdown {
-    font-size: 2.5rem;
+.date-time-box {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid gold;
+    border-radius: 10px;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+#current-date, #current-time {
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+}
+
+.main-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+
+.next-prayer-box, .prayer-times-box {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid gold;
+    border-radius: 10px;
+    padding: 1.5rem;
+}
+
+.next-prayer-name {
     text-align: center;
     margin: 1rem 0;
-    color: white;
 }
 
-.next-prayer {
+#next-prayer-english {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+#next-prayer-arabic {
+    font-size: 1.5rem;
+    color: gold;
+}
+
+#next-prayer-time {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+#next-prayer-date {
     text-align: center;
     color: gold;
-    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+}
+
+.countdown-container {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.countdown-box {
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid gold;
+    border-radius: 5px;
+    padding: 1rem;
+    text-align: center;
+    min-width: 100px;
+}
+
+.countdown-value {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.countdown-label {
+    color: gold;
+    font-size: 0.9rem;
+}
+
+#prayer-date {
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.prayer-times-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
 }
 
 .prayer-time {
+    display: grid;
+    grid-template-columns: auto 1fr auto auto;
+    align-items: center;
+    gap: 1rem;
+    padding: 0.8rem;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.prayer-indicator {
+    width: 30px;
+    height: 30px;
+    background: gold;
+    color: black;
+    border-radius: 50%;
     display: flex;
-    justify-content: space-between;
-    margin: 1rem 0;
-    padding: 0.5rem;
-    border-bottom: 1px solid rgba(255, 215, 0, 0.3);
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.prayer-names {
+    display: flex;
+    flex-direction: column;
 }
 
 .prayer-name {
-    color: gold;
+    font-size: 1.1rem;
 }
 
-.time {
-    color: white;
+.prayer-arabic {
+    color: gold;
+    font-size: 0.9rem;
+}
+
+.prayer-time-value {
+    font-size: 1.1rem;
+}
+
+.prayer-date {
+    color: gold;
+    font-size: 0.9rem;
 }
 
 @media (max-width: 768px) {
-    .container {
-        flex-direction: column;
+    .main-content {
+        grid-template-columns: 1fr;
+    }
+    
+    .countdown-container {
+        flex-wrap: wrap;
+    }
+    
+    .countdown-box {
+        min-width: 80px;
     }
 }
