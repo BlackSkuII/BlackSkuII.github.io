@@ -161,11 +161,6 @@ h2 {
     font-size: 1.1rem;
 }
 
-.prayer-date {
-    color: gold;
-    font-size: 0.9rem;
-}
-
 @media (max-width: 768px) {
     .main-content {
         grid-template-columns: 1fr;
