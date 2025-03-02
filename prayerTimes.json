@@ -1,0 +1,22 @@
+  [
+    {
+      "date": "3/1",
+      "prayerTimes": {
+        "Fajr": "5:00 AM",
+        "Dhuhr": "12:30 PM",
+        "Asr": "4:00 PM",
+        "Maghrib": "6:00 PM",
+        "Isha": "9:30 PM"
+      }
+    },
+    {
+      "date": "3/2",
+      "prayerTimes": {
+        "Fajr": "5:05 AM",
+        "Dhuhr": "12:40 PM",
+        "Asr": "4:10 PM",
+        "Maghrib": "6:20 PM",
+        "Isha": "9:40 PM"
+      }
+    }
+  ]
