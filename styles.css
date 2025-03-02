@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    background-color: #000;
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+#prayer-times, #countdown {
+    padding: 20px;
+    border: 3px solid gold;
+    border-radius: 10px;
+    box-shadow: 0 0 15px gold;
+}
+
+#prayer-times {
+    width: 40%;
+}
+
+#countdown {
+    width: 40%;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.prayer-box {
+    padding: 10px;
+    margin: 10px 0;
+    border: 2px solid gold;
+    border-radius: 5px;
+    text-align: center;
+}
