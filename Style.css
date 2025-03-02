@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #000;
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    max-width: 1200px;
+}
+
+.timer-box, .prayer-times {
+    padding: 20px;
+    border: 3px solid gold;
+    border-radius: 10px;
+    text-align: center;
+    width: 45%;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin: 10px 0;
+    font-size: 1.2em;
+}
+
+#countdown {
+    font-size: 2em;
+    margin-top: 20px;
+    color: #FFD700;
+}
