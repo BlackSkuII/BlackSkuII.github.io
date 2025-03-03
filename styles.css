@@ -38,6 +38,7 @@ h2 {
     padding: 1.5rem;
     margin-bottom: 2rem;
     text-align: center;
+    animation: pulse 2s infinite;
 }
 
 #current-date, #current-time {
