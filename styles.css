@@ -56,6 +56,13 @@ h2 {
     border: 1px solid gold;
     border-radius: 10px;
     padding: 1.5rem;
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0% { box-shadow: 0 0 5px gold; }
+  50% { box-shadow: 0 0 20px gold; }
+  100% { box-shadow: 0 0 5px gold; }
 }
 
 .next-prayer-name {
