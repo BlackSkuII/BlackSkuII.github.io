@@ -1,10 +1,10 @@
 // Prayer times data
 const prayerTimes = {
-    fajr: { time: '5:30 AM', date: 'Sunday, March 2' },
-    dhuhr: { time: '12:30 PM', date: 'Sunday, March 2' },
-    asr: { time: '3:45 PM', date: 'Sunday, March 2' },
-    maghrib: { time: '6:15 PM', date: 'Sunday, March 2' },
-    isha: { time: '7:45 PM', date: 'Sunday, March 2' }
+    fajr: { time: '4:59 AM' },
+    dhuhr: { time: '11:57 AM' },
+    asr: { time: '3:53 PM' },
+    maghrib: { time: '5:38 PM' },
+    isha: { time: '6:55 PM' }
 };
 
 const arabicNames = {
