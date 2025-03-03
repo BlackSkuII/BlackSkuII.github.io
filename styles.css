@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: #be9ead;
+    background-color: black;
     color: white;
     min-height: 100vh;
     padding: 2rem;
@@ -159,6 +159,11 @@ h2 {
 
 .prayer-time-value {
     font-size: 1.1rem;
+}
+
+.prayer-date {
+    color: gold;
+    font-size: 0.9rem;
 }
 
 @media (max-width: 768px) {
