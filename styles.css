@@ -6,8 +6,7 @@
 }
 
 body {
-    /*background-color: black;*/
-    background: radial-gradient(circle, #3b7f7f, #0b2424);
+    background: radial-gradient(circle, #3b7f7f, #0b2424) !important;
     color: white;
     min-height: 100vh;
     padding: 2rem;
@@ -33,7 +32,6 @@ h2 {
 }
 
 .date-time-box {
-    /*background: rgba(255, 255, 255, 0.05);*/
     background: rgba(18, 70, 68, 0.6);
     border: 1px solid gold;
     border-radius: 10px;
@@ -55,7 +53,6 @@ h2 {
 }
 
 .next-prayer-box, .prayer-times-box {
-    /*background: rgba(255, 255, 255, 0.05);*/
     background: rgba(18, 70, 68, 0.6);
     border: 1px solid gold;
     border-radius: 10px;
