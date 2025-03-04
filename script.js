@@ -1,6 +1,6 @@
 // Prayer times data
 const prayerTimes = {
-    fajr: { time: '5:00 AM', date: 'Sunday, March 2' },
+   /* fajr: { time: '5:00 AM', date: 'Sunday, March 2' },
     dhuhr: { time: '11:57 AM', date: 'Sunday, March 2' },
     asr: { time: '3:52 PM', date: 'Sunday, March 2' },
     maghrib: { time: '5:36 PM', date: 'Sunday, March 2' },
@@ -10,7 +10,7 @@ const prayerTimes = {
     dhuhr: { time: '11:57 AM', date: 'Monday, March 3' },
     asr: { time: '3:53 PM', date: 'Monday, March 3' },
     maghrib: { time: '5:38 PM', date: 'Monday, March 3' },
-    isha: { time: '6:55 PM', date: 'Monday, March 3' }
+    isha: { time: '6:55 PM', date: 'Monday, March 3' } */
 
     fajr: { time: '4:57 AM', date: 'Tuesday, March 4' },
     dhuhr: { time: '11:56 AM', date: 'Tuesday, March 4' },
@@ -18,7 +18,7 @@ const prayerTimes = {
     maghrib: { time: '5:39 PM', date: 'Tuesday, March 4' },
     isha: { time: '6:56 PM', date: 'Tuesday, March 4' }
 
-    /*fajr: { time: '4:55 AM', date: 'Wednesday, March 5' },
+  /*fajr: { time: '4:55 AM', date: 'Wednesday, March 5' },
     dhuhr: { time: '11:56 AM', date: 'Wednesday, March 5' },
     asr: { time: '3:55 PM', date: 'Wednesday, March 5' },
     maghrib: { time: '5:40 PM', date: 'Wednesday, March 5' },
