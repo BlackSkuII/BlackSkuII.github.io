@@ -18,7 +18,7 @@ const prayerTimes = {
     maghrib: { time: '5:39 PM', date: 'Tuesday, March 4' },
     isha: { time: '6:56 PM', date: 'Tuesday, March 4' }*/
 
-  fajr: { time: '4:55 AM', date: 'Wednesday, March 5' },
+    fajr: { time: '4:55 AM', date: 'Wednesday, March 5' },
     dhuhr: { time: '11:56 AM', date: 'Wednesday, March 5' },
     asr: { time: '3:55 PM', date: 'Wednesday, March 5' },
     maghrib: { time: '5:40 PM', date: 'Wednesday, March 5' },
