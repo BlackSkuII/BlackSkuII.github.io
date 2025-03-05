@@ -10,20 +10,20 @@ const prayerTimes = {
     dhuhr: { time: '11:57 AM', date: 'Monday, March 3' },
     asr: { time: '3:53 PM', date: 'Monday, March 3' },
     maghrib: { time: '5:38 PM', date: 'Monday, March 3' },
-    isha: { time: '6:55 PM', date: 'Monday, March 3' } */
+    isha: { time: '6:55 PM', date: 'Monday, March 3' } 
 
     fajr: { time: '4:57 AM', date: 'Tuesday, March 4' },
     dhuhr: { time: '11:56 AM', date: 'Tuesday, March 4' },
     asr: { time: '3:54 PM', date: 'Tuesday, March 4' },
     maghrib: { time: '5:39 PM', date: 'Tuesday, March 4' },
-    isha: { time: '6:56 PM', date: 'Tuesday, March 4' }
+    isha: { time: '6:56 PM', date: 'Tuesday, March 4' }*/
 
-  /*fajr: { time: '4:55 AM', date: 'Wednesday, March 5' },
+  fajr: { time: '4:55 AM', date: 'Wednesday, March 5' },
     dhuhr: { time: '11:56 AM', date: 'Wednesday, March 5' },
     asr: { time: '3:55 PM', date: 'Wednesday, March 5' },
     maghrib: { time: '5:40 PM', date: 'Wednesday, March 5' },
     isha: { time: '6:57 PM', date: 'Wednesday, March 5' }
-
+/*
     fajr: { time: '4:54 AM', date: 'Thursday, March 6' },
     dhuhr: { time: '11:56 AM', date: 'Thursday, March 6' },
     asr: { time: '3:56 PM', date: 'Thursday, March 6' },
