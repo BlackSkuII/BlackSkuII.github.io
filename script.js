@@ -1,46 +1,46 @@
 // Prayer times data
 const prayerTimes = {
-   /* fajr: { time: '5:00 AM', date: 'Sunday, March 2' },
-    dhuhr: { time: '11:57 AM', date: 'Sunday, March 2' },
-    asr: { time: '3:52 PM', date: 'Sunday, March 2' },
-    maghrib: { time: '5:36 PM', date: 'Sunday, March 2' },
-    isha: { time: '6:54 PM', date: 'Sunday, March 2' },
+    fajr: { time: '5:00 AM', date: 'Sunday, March 16' },
+    dhuhr: { time: '11:57 AM', date: 'Sunday, March 16' },
+    asr: { time: '3:52 PM', date: 'Sunday, March 16' },
+    maghrib: { time: '5:36 PM', date: 'Sunday, March 16' },
+    isha: { time: '6:54 PM', date: 'Sunday, March 16' },
 
-    fajr: { time: '4:59 AM', date: 'Monday, March 3' },
-    dhuhr: { time: '11:57 AM', date: 'Monday, March 3' },
-    asr: { time: '3:53 PM', date: 'Monday, March 3' },
-    maghrib: { time: '5:38 PM', date: 'Monday, March 3' },
-    isha: { time: '6:55 PM', date: 'Monday, March 3' } 
+    fajr: { time: '4:59 AM', date: 'Monday, March 10' },
+    dhuhr: { time: '11:57 AM', date: 'Monday, March 10' },
+    asr: { time: '3:53 PM', date: 'Monday, March 10' },
+    maghrib: { time: '5:38 PM', date: 'Monday, March 10' },
+    isha: { time: '6:55 PM', date: 'Monday, March 10' } 
 
-    fajr: { time: '4:57 AM', date: 'Tuesday, March 4' },
-    dhuhr: { time: '11:56 AM', date: 'Tuesday, March 4' },
-    asr: { time: '3:54 PM', date: 'Tuesday, March 4' },
-    maghrib: { time: '5:39 PM', date: 'Tuesday, March 4' },
-    isha: { time: '6:56 PM', date: 'Tuesday, March 4' }
+    fajr: { time: '4:57 AM', date: 'Tuesday, March 11' },
+    dhuhr: { time: '11:56 AM', date: 'Tuesday, March 11' },
+    asr: { time: '3:54 PM', date: 'Tuesday, March 11' },
+    maghrib: { time: '5:39 PM', date: 'Tuesday, March 11' },
+    isha: { time: '6:56 PM', date: 'Tuesday, March 11' }
 
-    fajr: { time: '4:55 AM', date: 'Wednesday, March 5' },
-    dhuhr: { time: '11:56 AM', date: 'Wednesday, March 5' },
-    asr: { time: '3:55 PM', date: 'Wednesday, March 5' },
-    maghrib: { time: '5:40 PM', date: 'Wednesday, March 5' },
-    isha: { time: '6:57 PM', date: 'Wednesday, March 5' }*/
+    fajr: { time: '4:55 AM', date: 'Wednesday, March 12' },
+    dhuhr: { time: '11:56 AM', date: 'Wednesday, March 12' },
+    asr: { time: '3:55 PM', date: 'Wednesday, March 12' },
+    maghrib: { time: '5:40 PM', date: 'Wednesday, March 12' },
+    isha: { time: '6:57 PM', date: 'Wednesday, March 12' }
 
-    fajr: { time: '4:54 AM', date: 'Thursday, March 6' },
-    dhuhr: { time: '11:56 AM', date: 'Thursday, March 6' },
-    asr: { time: '3:56 PM', date: 'Thursday, March 6' },
-    maghrib: { time: '5:41 PM', date: 'Thursday, March 6' },
-    isha: { time: '6:58 PM', date: 'Thursday, March 6' }
-/*
-    fajr: { time: '4:42 AM', date: 'Friday, March 7' },
-    dhuhr: { time: '11:56 AM', date: 'Friday, March 7' },
-    asr: { time: '3:57 PM', date: 'Friday, March 7' },
-    maghrib: { time: '5:42 PM', date: 'Friday, March 7' },
-    isha: { time: '7:00 PM', date: 'Friday, March 7' }
+    fajr: { time: '4:54 AM', date: 'Thursday, March 13' },
+    dhuhr: { time: '11:56 AM', date: 'Thursday, March 13' },
+    asr: { time: '3:56 PM', date: 'Thursday, March 13' },
+    maghrib: { time: '5:41 PM', date: 'Thursday, March 13' },
+    isha: { time: '6:58 PM', date: 'Thursday, March 13' }
 
-    fajr: { time: '4:50 AM', date: 'Saturday, March 8' },
-    dhuhr: { time: '11:55 AM', date: 'Saturday, March 8' },
-    asr: { time: '3:58 PM', date: 'Saturday, March 8' },
-    maghrib: { time: '5:44 PM', date: 'Saturday, March 8' },
-    isha: { time: '7:01 PM', date: 'Saturday, March 8' }*/
+    fajr: { time: '4:42 AM', date: 'Friday, March 14' },
+    dhuhr: { time: '11:56 AM', date: 'Friday, March 14' },
+    asr: { time: '3:57 PM', date: 'Friday, March 14' },
+    maghrib: { time: '5:42 PM', date: 'Friday, March 14' },
+    isha: { time: '7:00 PM', date: 'Friday, March 14' }
+
+    fajr: { time: '4:50 AM', date: 'Saturday, March 15' },
+    dhuhr: { time: '11:55 AM', date: 'Saturday, March 15' },
+    asr: { time: '3:58 PM', date: 'Saturday, March 15' },
+    maghrib: { time: '5:44 PM', date: 'Saturday, March 15' },
+    isha: { time: '7:01 PM', date: 'Saturday, March 15' }
 };
 
 const arabicNames = {
