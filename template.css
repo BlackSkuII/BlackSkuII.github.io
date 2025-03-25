@@ -264,6 +264,7 @@ blockquote
 	{
 		margin: 1.2em 1.5em 1.2em 1.5em;
 		font-size:95%;
+		color: #fff;
 	}
 .underline
 	{
@@ -446,6 +447,7 @@ table.table1 td
 		font-size:85%;
 		text-align: justify;
 		text-indent: 0em;
+		color: #fff;
 	}
 .bmnoindent1
 	{
