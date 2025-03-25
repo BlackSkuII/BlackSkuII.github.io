@@ -2,7 +2,7 @@ body
 	{
 		margin-left: 2.5%;
 		margin-right: 2.5%;
-    background: black;
+		background: black;
     
 	}
 p
@@ -55,6 +55,7 @@ small
 		margin-top: .1em;
 		text-align: justify;
 		text-indent: 1.5em;
+		color: white;
 	}
 .indent1
 	{
