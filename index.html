@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sale & Clearance Electronics</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f4f4f4;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+
+        .products-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .product-item {
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 15px;
+            text-align: center;
+            background-color: #fff;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+            transition: transform 0.2s;
+        }
+
+        .product-item:hover {
+            transform: translateY(-5px);
+        }
+
+        .product-image {
+            width: 100%;
+            height: auto;
+            max-height: 200px;
+            object-fit: contain;
+            border-radius: 4px;
+            margin-bottom: 10px;
+        }
+
+        .product-name {
+            font-size: 1.1em;
+            font-weight: bold;
+            color: #555;
+            margin-bottom: 5px;
+        }
+
+        .product-price {
+            font-size: 1.2em;
+            color: #e44d26; /* A common color for sales prices */
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Sale & Clearance Electronics</h1>
+        <div id="products-container" class="products-grid">
+            </div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const productsContainer = document.getElementById('products-container');
+            const url = "https://svc.bkstr.com/search/categorySearch?&catalogId=11077&categoryId=804849&storeId=10348&langId=-1&profileName=Follett_ComposeProductListByCategoryId&aemContentPath=electronics-sale-and-clearance&searchSource=E&pageNumber=1&pageSize=52&orderBy=1&storeNumber=530&device_type=WEB&schoolName=University%20of%20Massachusetts%20Boston&dayoftheweek=Wednesday&houroftheday=19&authenticated=false&landingPage=true&facet=sale%3A%22s%22OR%20partial_flag%3A%22ps%22%20OR%20clearance%3A%22c%22OR%20partial_flag%3A%22pc%22%20OR%20partial_flag%3A%22psc%22sale:%22s%22OR%20partial_flag:%22ps%22OR%20clearance:%22c%22%20OR%20partial_flag:%22pc%22%20OR%20partial_flag:%22psc%22&x_efollett_uuid=5644de5a-891a-11f0-ba9f-42010ad24987";
+
+            fetch(url)
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error(`HTTP error! status: ${response.status}`);
+                    }
+                    return response.json();
+                })
+                .then(data => {
+                    const products = data.recordSet.filter(item => item.product_ntk);
+                    products.forEach(product => {
+                        const productItem = document.createElement('div');
+                        productItem.classList.add('product-item');
+
+                        const productName = product.name;
+                        const productPrice = product.display_price;
+                        const productImage = product.thumbnail;
+
+                        const imageUrl = `https://bkstr.scene7.com/is/image/bkstr/${productImage}?scl=1&qlt=70&fmt=webp`;
+
+                        productItem.innerHTML = `
+                            <img src="${imageUrl}" alt="${productName}" class="product-image">
+                            <div class="product-name">${productName}</div>
+                            <div class="product-price">${productPrice}</div>
+                        `;
+                        productsContainer.appendChild(productItem);
+                    });
+                })
+                .catch(e => {
+                    console.error('There was a problem with the fetch operation:', e);
+                    productsContainer.innerHTML = '<p>Failed to load products. Please try again later.</p>';
+                });
+        });
+    </script>
+</body>
+</html>
